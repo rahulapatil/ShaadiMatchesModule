@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ShaadiMatchesModule</string>
+    <string name="hint_network_error">Please check your network connection and try again.To get more updated matches.</string>
+    <string name="hint_declined">You have declined request from </string>
+    <string name="hint_accepeted">You have accepted request from </string>
+</resources>

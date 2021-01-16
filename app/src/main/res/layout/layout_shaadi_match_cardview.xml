@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    card_view:cardBackgroundColor="#ffffff"
+    card_view:cardCornerRadius="@dimen/_13sdp"
+    card_view:cardElevation="@dimen/_7sdp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:contentPadding="@dimen/_4sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_220sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:src="@mipmap/ic_launcher_round"
+            app:civ_border_color="@color/non_editable_text_border"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/txt_about_user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:padding="@dimen/_7sdp"
+            android:textStyle="italic"
+            android:text="Vishal D has sent you a message.In..."
+            android:textAllCaps="false"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_14sdp" />
+
+        <TextView
+            android:id="@+id/txt_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_7sdp"
+            android:text="Vishal D"
+            android:textAllCaps="false"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_8sdp"
+            android:text="32 yrs 5'8 Consultant/Supervisor/\nMarathi, Maratha Pune Maharashtra"
+            android:textAllCaps="false"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@color/non_editable_text"></View>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/_10sdp"></Space>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:id="@+id/status"
+            android:weightSum="1">
+
+            <com.example.shaadimatchesmodule.views.ProportionalImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:id="@+id/img_decline"
+                android:src="@drawable/baseline_cancel_24"
+                android:layout_weight="0.2">
+            </com.example.shaadimatchesmodule.views.ProportionalImageView>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Decline"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_13sdp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:layout_weight="0.2"></TextView>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"></Space>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Accept"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_13sdp"
+                android:layout_gravity="center"
+                android:gravity="end|center"
+                android:textColor="#19c3d9"
+                android:layout_weight="0.2"></TextView>
+
+
+            <com.example.shaadimatchesmodule.views.ProportionalImageView
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/baseline_check_circle_24"
+                android:id="@+id/img_accept"
+                android:layout_weight="0.2"></com.example.shaadimatchesmodule.views.ProportionalImageView>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/txt_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_1sdp"
+            android:text="Accepted"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/_11sdp" />
+        <Space
+            android:layout_width="fill_parent"
+            android:visibility="gone"
+            android:id="@+id/space"
+            android:layout_height="@dimen/_15sdp"></Space>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
