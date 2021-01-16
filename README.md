@@ -13,9 +13,10 @@ Code Challenge For Shaadi.com
 04. [hdodenhof/CircleImageView](https://github.com/hdodenhof/CircleImageView)
 05. [intuit/sdp](https://github.com/intuit/sdp)
 06. [Room](https://developer.android.com/jetpack/androidx/releases/room)
-07. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+07. [android-viewmodel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 08. [Kotlin coroutines on Android](https://developer.android.com/kotlin/coroutines)
 08. [ReactiveX/RxAndroid](https://github.com/ReactiveX/RxAndroid)
+09. [RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)
 
   
 ### ScreenShots  
