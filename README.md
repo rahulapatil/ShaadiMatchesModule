@@ -11,7 +11,7 @@ Code Challenge For Shaadi.com
 02. [google/gson](https://github.com/google/gson)
 03. [google/volley](https://github.com/google/volley)
 04. [hdodenhof/CircleImageView](https://github.com/hdodenhof/CircleImageView)
-05. [intuit/sdp](https://github.com/intuit/sdp)/Android-Debug-Database)
+05. [intuit/sdp](https://github.com/intuit/sdp)
 06. [Room](https://developer.android.com/jetpack/androidx/releases/room)
 07. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 08. [Kotlin coroutines on Android](https://developer.android.com/kotlin/coroutines)
