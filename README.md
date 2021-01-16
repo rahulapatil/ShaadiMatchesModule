@@ -8,14 +8,14 @@ Code Challenge For Shaadi.com
 
 ### Tools & References:wrench:  
 01. [Glide v4](https://github.com/bumptech/glide)
-02. [barteksc AndroidPdfViewer](https://github.com/barteksc/AndroidPdfViewer)
-03. [google/gson](https://github.com/google/gson)
-04. [google/volley](https://github.com/google/volley)
-05. [hdodenhof/CircleImageView](https://github.com/hdodenhof/CircleImageView)
-06. [intuit/sdp](https://github.com/intuit/sdp)/Android-Debug-Database)
-07. [Room](https://developer.android.com/jetpack/androidx/releases/room)
-08. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
-09. [Kotlin coroutines on Android](https://developer.android.com/kotlin/coroutines)
+02. [google/gson](https://github.com/google/gson)
+03. [google/volley](https://github.com/google/volley)
+04. [hdodenhof/CircleImageView](https://github.com/hdodenhof/CircleImageView)
+05. [intuit/sdp](https://github.com/intuit/sdp)/Android-Debug-Database)
+06. [Room](https://developer.android.com/jetpack/androidx/releases/room)
+07. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+08. [Kotlin coroutines on Android](https://developer.android.com/kotlin/coroutines)
+08. [ReactiveX/RxAndroid](https://github.com/ReactiveX/RxAndroid)
 
   
 ### ScreenShots  
